@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(42, 42, 42);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.title a{
+    text-decoration: none;
+    color: rgb(207, 204, 204);
+    font-size: 20px;
+}
+
+
+.user-name a{
+    background-color: rgb(2, 25, 82);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+@keyframes typing{
+    from{
+        
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+@keyframes blink-caret {
+    50% { border-color: transparent; }
+  }
+.body h2{
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 20px solid; */
+    /* border-radius: 100px; */
+    width: 50%;
+    margin: 2% auto;
+    animation: typing 3s steps(50, end), blink-caret 0.5s step-end infinite;
+}
+
+
+.body{
+    margin-top: 5rem;
+    text-align: center;
+
+}
+.body input{
+    background-color: #363636;
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    height: 45px;
+    padding-left: 40px;
+    font-size: 14px;
+
+}
+.body ::placeholder{
+    color: #8f8d8d;
+}
+.body a{
+    text-decoration: none;
+    color: rgb(251, 250, 250);
+    position: relative;
+    left: 2rem;
+}
+#icn{
+    background-color: #8f8d8d;
+    color: #000;
+    padding: 5px 7px;
+    border-radius: 50px;
+    margin-left: -3rem;
+}
+.body h2{
+    color: #fff;
+    text-align: center;
+
+}
+.tabs{
+    text-align: center;
+    margin: 3rem 2rem;
+}
+.tabs button{
+    margin: 0 10px;
+    background-color: #292828;
+    color: rgb(207, 204, 204);
+    border: solid 2px rgb(66, 65, 65);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    transition: 0.5s ease-in-out;
+
+}
+.tabs button:hover{
+    background-color: #535151;
+}
+.tabs i{
+    margin: 0 5px;
+}
+#more-tab{
+    width: 80px ;
+}
+.tabs button a{
+    color: rgb(207, 204, 204);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+footer p{
+    margin-top: 13rem;
+    color: rgb(207, 204, 204);
+    text-align: center;
+    font-size: 12px;
+}
